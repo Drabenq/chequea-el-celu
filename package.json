@@ -1,0 +1,10 @@
+{
+  "name": "chequea-el-celu",
+  "version": "1.0.0",
+  "description": "Revisá un celular usado antes de comprarlo, desde el navegador.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}

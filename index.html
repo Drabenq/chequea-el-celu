@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#14213D">
+  <meta name="description" content="Revisá un celular usado antes de comprarlo: pantalla, cámaras, parlante, micrófono, sensores y batería, desde el navegador.">
+  <title>Chequeá el Celu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+  <header class="top">
+    <span class="brand">Chequeá el Celu</span>
+    <nav class="strip" id="strip" aria-label="Progreso de la revisión"></nav>
+  </header>
+
+  <main class="track" id="track">
+    <section class="slide intro" data-index="0">
+      <div class="slide-body">
+        <h1>¿Vas a comprar un celular usado?</h1>
+        <p class="lead">Abrí esta página en el celular que querés comprar y revisalo en unos minutos, antes de pagar.</p>
+        <ul class="facts">
+          <li>Las pruebas que se pueden medir se evalúan solas.</li>
+          <li>Deslizá hacia la izquierda para pasar de una prueba a otra.</li>
+          <li>Nada se guarda ni se envía: todo queda en el teléfono.</li>
+        </ul>
+        <button class="btn primary" data-action="next">Empezar la revisión</button>
+      </div>
+    </section>
+    <!-- test slides are rendered by app.js -->
+  </main>
+
+  <div class="overlay" id="overlay" hidden></div>
+
+  <noscript>Esta página necesita JavaScript para hacer las pruebas.</noscript>
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>
